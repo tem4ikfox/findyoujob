@@ -1,0 +1,122 @@
+*,*:before,*:after{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: 'Fira Sans', sans-serif;
+font-size: 16px;
+color: #111238;}
+.header{background: #F2F3F6;
+}
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-it:not(:last-child){
+    margin-right: 20px;
+}
+.menu-link{
+    color: #111238;
+text-decoration: none;}
+.button {
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+    font-size: 16px;
+}
+.button-icon  {
+vertical-align: middle;
+margin-right: 10px;
+}
+.button-text{vertical-align: middle;}
+.button-link{
+
+    color: #111238;
+    padding: 15px;
+    margin-right: 30px;
+}
+.button-primary{
+    background: #1A75E8;
+    border-radius: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #fff;
+}
+.hero-title{
+    font-size: 44px;
+    line-height: 53px;
+    margin-bottom: 15px;
+    margin-top: 43px;}
+.hero-text{
+    font-size: 18px;
+    line-height: 140%;
+    margin-bottom: 30px;
+}
+.input-group{
+background-color: #fff;
+border: 1px solid rgba(209, 209, 209, 0.1);
+padding: 10px;
+box-shadow: 0px 4px 25px rgba(15, 17, 56, 0.1);
+border-radius: 5px;
+margin-bottom: 25px;}
+.input{
+    background-color: #fff;
+    border: none;
+    flex-grow: 1;
+    font-size: 16px;
+    line-height: 19px;
+    padding-left: 15px;
+}
+.input:focus{
+    outline: 1px dotted red;
+}
+.tags-group{
+    padding-left: 15px;
+    color: #B2B2B2;
+    font-size: 14px;
+    line-height: 17px;
+}
+.tag{
+    color: #B2B2B2;
+    text-decoration: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+    border: 1px solid #B2B2B2;
+    border-radius: 5px;
+}
+.section{
+    padding-top: 70px;
+    padding-bottom: 80px;
+}
+.section-title{
+    padding-top: 0px;
+    padding-bottom: 40px;
+}
+.card-icon{
+    fill: #111238;
+    margin-bottom: 15px;
+    transition: fill 0.2s;
+}
+.card-icon:hover{
+    fill: green;
+}
+.card{
+    text-decoration: none;
+    color: #111238;
+    background: #F2F3F6;
+    border-radius: 15px;
+    padding: 35px;
+    transition: background 0.2s, color 0.2s;
+}
+.card:hover{
+    background: #1A75E8;
+    color: #fff;
+    
+}
+.card:hover .card-icon{
+    fill: #fff;
+}

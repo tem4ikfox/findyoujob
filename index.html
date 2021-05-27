@@ -2,24 +2,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Удалёнка</title>
-    <link rel="stylesheet" href="bootstrap-grid.min.css">
-    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700;900&display=swap" rel="stylesheet">
 </head>
+li
 <body>
-    <header class="header">
+    <header class="header pb-5">
         <div class="container">
             <div class="row align-items-center py-3" >
-               <div class="col-2">
+               <div class="col d-flex flex-column align-items--2">
                    <a href="" class="logo"></a>
                    <img src="images/logo.svg" alt="logo">
                </div>
-               <!-- /.col -->
-               <div class="col d-flex justify-content-center">
+               <!-- /.col d-flex flex-column align-items- -->
+               <div class="col d-flex flex-column align-items- d-flex justify-content-center">
                     <nav class="nav">
                         <ul class="menu d-flex">
                             <li class="menu-it"><a href="#" class="menu-link">Главная</a></li>
@@ -28,16 +29,95 @@
                         </ul>
                     </nav>
                </div>
-               <!-- /.col -->
-               <div class="col-3 d-flex justify-content-end">
+               <!-- /.col d-flex flex-column align-items- -->
+               <div class="col d-flex flex-column align-items--3 d-flex justify-content-end">
                 <a href="#" class="button button-link">Войти</a>
                 <a href="#" class="button button-primary">Регистрация</a>
                </div>
-               <!-- /.col -->
+               <!-- /.col d-flex flex-column align-items- --> 
+            </div>
+            <!-- /.row -->
+            <div class="row pt-5">
+                <div class="col d-flex flex-column align-items--5">
+                    <h1 class="hero-title">Найдите удаленную работу вашей мечты</h1>
+                    <p class="hero-text">Создайте резюме или отправьте отклик на вакансию в&nbsp; компании с мировым именем и работайте<br> по свободному графику</p>
+                    <div class="input-group d-flex">
+                        <input type="text" class="input" placeholder="Начните поиск">
+                        <button class="button button-primary">
+                            <img class="button-icon" src="images/search.svg" alt="icon: search"> Искать вакансии
+                        </button>
+                        <span class="button-text"></span>
+                    </div>
+                    <div class="tags-group">
+                        <span class="tags-lable">Например:
+                        </span>
+                        <!-- /.tags-lable -->
+                     <a href="#" class="tag">Front-end</a>
+                     <a href="#" class="tag">Back-end</a>
+                     <a href="#" class="tag">Designer</a>    
+                    </div>
+                    <!-- /.tags-group -->
+                </div>
+                <!-- /.col d-flex flex-column align-items--5 -->
+                <div class="col d-flex flex-column align-items--6 offset-1">
+                    <img src="images/hero-image.svg" alt="people with laptop" class="hero-image">
+                
+                </div>
+                <!-- /.col d-flex flex-column align-items--6 offset-1 -->
             </div>
             <!-- /.row -->
         </div>
         <!-- /.container -->
     </header>
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Категории</h2>
+            <div class="row">
+                <div class="col "><a href="#" class="card d-flex flex-column align-items-center">
+                    <svg height="24" class="card-icon">
+                        <use href="images/icons.svg#brush"></use>
+                      </svg><span class="card-text">Дизайн</span>
+                        <!-- /.card-text --></a>
+                    <!-- /.card --></div>
+                <!-- /.col d-flex flex-column align-items- -->
+                <div class="col "><a href="#" class="card d-flex flex-column align-items-center">
+                    <svg  class="card-icon" height="24">
+                        <use href="images/icons.svg#browser"></use>
+                      </svg><span class="card-text">Разработка</span>
+                        <!-- /.card-text --></a>
+                    <!-- /.card --></div>
+                <!-- /.col d-flex flex-column align-items- -->
+                <div class="col "><a href="#" class="card d-flex flex-column align-items-center">
+                    <svg  class="card-icon" height="24">
+                        <use href="images/icons.svg#edit"></use>
+                      </svg><span class="card-text">Копирайтиг</span>
+                        <!-- /.card-text --></a>
+                    <!-- /.card --></div>
+                <!-- /.col d-flex flex-column align-items- -->
+                <div class="col "><a href="#" class="card d-flex flex-column align-items-center">
+                    <svg  class="card-icon" height="24">
+                        <use href="images/icons.svg#fingerprint"></use>
+                      </svg><span class="card-text">Безопасность</span>
+                        <!-- /.card-text --></a>
+                    <!-- /.card --></div>
+                <!-- /.col d-flex flex-column align-items- -->
+                <div class="col "><a href="#" class="card d-flex flex-column align-items-center">
+                    <svg  class="card-icon" height="24">
+                        <use href="images/icons.svg#camera"></use>
+                      </svg><span class="card-text">Видео</span>
+                        <!-- /.card-text --></a>
+                    <!-- /.card --></div>
+                <!-- /.col d-flex flex-column align-items- -->
+                <div class="col "><a href="#" class="card d-flex flex-column align-items-center">
+                    <svg  class="card-icon" height="24">
+                        <use href="images/icons.svg#school"></use>
+                      </svg><span class="card-text">Образование</span>
+                        <!-- /.card-text --></a>
+                    <!-- /.card --></div>
+                <!-- /.col d-flex flex-column align-items- -->
+            </div>
+            <!-- /.row -->
+        </div>
+    </section>
 </body>
 </html>
